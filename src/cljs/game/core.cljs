@@ -36,10 +36,8 @@
    {:id 2 :cards [{:id 2 :name "Calvin 'Cheese' Wagstaff" :owner "images/bunk.jpg"}
                   {:id 3 :name "Russell 'Stringer' Bell" :owner "images/mcnulty.jpg"}
                   {:id 4 :name "Savino Bratton" :owner "images/kima.jpg"}]}
-   {:id 3 :cards [{:id 2 :name "Calvin 'Cheese' Wagstaff" :owner "images/bunk.jpg"}
-                  {:id 3 :name "Russell 'Stringer' Bell" :owner "images/mcnulty.jpg"}
-                  {:id 4 :name "Savino Bratton" :owner "images/kima.jpg"}]}
-   {:id 4 :cards [{:id 5 :name "Marlo Stanfield" :owner "images/bunk.jpg"}]}])
+   {:id 3 :cards [{:id 5 :name "Proposition Joe" :owner "images/bunk.jpg"}]}
+   {:id 4 :cards [{:id 6 :name "Marlo Stanfield" :owner "images/bunk.jpg"}]}])
 
 ;; Trigger initial loading.
 
