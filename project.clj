@@ -14,9 +14,10 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"
             :distribution :repo
             :comments "same as Clojure"}
-  :dependencies [[org.clojure/clojure "1.5.0"]]
-  :plugins [[lein-cljsbuild "0.3.0"]
-            [net.drib/strokes "0.4.0"]]
+  :min-lein-version "2.0.0"
+  :dependencies [[org.clojure/clojure "1.5.0"]
+                 [net.drib/strokes "0.4.0"]]
+  :plugins [[lein-cljsbuild "0.3.0"]]
   :source-paths ["src/clj" "src/cljs"]
   :hooks [leiningen.cljsbuild]
   :cljsbuild
@@ -25,6 +26,6 @@
        :id "core",
        :compiler
        {:pretty-print true,
-        :output-to "resources/private/core.js",
-        :optimizations :whitespace}}
+        :output-to "resources/public/js/core.js",
+        :optimizations :simple}}
       ]})
